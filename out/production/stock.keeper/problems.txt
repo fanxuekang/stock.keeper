@@ -1,0 +1,7 @@
+第二天，自行做任务时遇到的问题：
+    1.DBUtil里面的query方法，我是使用的Arraylist<User>返回的，在UserDao中使用list.contains方法，时需要在User类中重写equals方法与hashCode方法，equals方法
+    重写出来了，但hashCode不会，
+    2.数据库中有userid属性，在这个项目中使用用户名和密码登录，于是就吧所以User实例中的userid属性的默认值都置为null，并且不加修改。
+    3.函数的返回值类型是resultset类型时，在其他类中rs.next()老是出错。
+2_19:
+    1.老师用的做项目时用的数据库与给出的数据库表中的属性不一样。
